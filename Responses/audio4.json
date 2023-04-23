@@ -1,0 +1,72 @@
+{
+  "jobName": "audio4",
+  "accountId": "123456789",
+  "results": {
+    "language_code": "en-US",
+    "transcripts": [
+      { "transcript": "Bigfoot is a legendary character cited in Himalayas." }
+    ],
+    "language_identification": [
+      { "score": "0.9804", "code": "en-US" },
+      { "score": "0.0126", "code": "en-AU" },
+      { "score": "0.0043", "code": "en-GB" },
+      { "score": "0.0015", "code": "en-NZ" },
+      { "score": "0.0012", "code": "en-ZA" }
+    ],
+    "items": [
+      {
+        "start_time": "0.009",
+        "end_time": "0.73",
+        "alternatives": [{ "confidence": "0.996", "content": "Bigfoot" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "0.74",
+        "end_time": "0.889",
+        "alternatives": [{ "confidence": "0.999", "content": "is" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "0.899",
+        "end_time": "0.91",
+        "alternatives": [{ "confidence": "0.999", "content": "a" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "0.92",
+        "end_time": "1.649",
+        "alternatives": [{ "confidence": "0.999", "content": "legendary" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "1.659",
+        "end_time": "2.22",
+        "alternatives": [{ "confidence": "0.999", "content": "character" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "2.23",
+        "end_time": "2.64",
+        "alternatives": [{ "confidence": "0.995", "content": "cited" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "2.65",
+        "end_time": "2.72",
+        "alternatives": [{ "confidence": "0.999", "content": "in" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "2.73",
+        "end_time": "3.519",
+        "alternatives": [{ "confidence": "0.999", "content": "Himalayas" }],
+        "type": "pronunciation"
+      },
+      {
+        "alternatives": [{ "confidence": "0.0", "content": "." }],
+        "type": "punctuation"
+      }
+    ]
+  },
+  "status": "COMPLETED"
+}

@@ -1,0 +1,88 @@
+{
+  "jobName": "audio1",
+  "accountId": "123456789",
+  "results": {
+    "language_code": "en-US",
+    "transcripts": [
+      {
+        "transcript": "Romeo and Juliet by William Shakespeare 1599 Stratford upon Avon."
+      }
+    ],
+    "language_identification": [
+      { "score": "0.8808", "code": "en-US" },
+      { "score": "0.0944", "code": "en-AU" },
+      { "score": "0.0135", "code": "en-GB" },
+      { "score": "0.0085", "code": "en-NZ" },
+      { "score": "0.0028", "code": "en-ZA" }
+    ],
+    "items": [
+      {
+        "start_time": "0.009",
+        "end_time": "0.62",
+        "alternatives": [{ "confidence": "0.999", "content": "Romeo" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "0.629",
+        "end_time": "0.8",
+        "alternatives": [{ "confidence": "0.999", "content": "and" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "0.81",
+        "end_time": "1.139",
+        "alternatives": [{ "confidence": "0.999", "content": "Juliet" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "1.149",
+        "end_time": "1.34",
+        "alternatives": [{ "confidence": "0.999", "content": "by" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "1.35",
+        "end_time": "1.679",
+        "alternatives": [{ "confidence": "0.999", "content": "William" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "1.69",
+        "end_time": "2.47",
+        "alternatives": [{ "confidence": "0.999", "content": "Shakespeare" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "2.5",
+        "end_time": "4.619",
+        "alternatives": [
+          { "confidence": "0.9956666666666667", "content": "1599" }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "4.659",
+        "end_time": "5.369",
+        "alternatives": [{ "confidence": "0.999", "content": "Stratford" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "5.38",
+        "end_time": "5.69",
+        "alternatives": [{ "confidence": "0.995", "content": "upon" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "5.699",
+        "end_time": "6.139",
+        "alternatives": [{ "confidence": "0.445", "content": "Avon" }],
+        "type": "pronunciation"
+      },
+      {
+        "alternatives": [{ "confidence": "0.0", "content": "." }],
+        "type": "punctuation"
+      }
+    ]
+  },
+  "status": "COMPLETED"
+}

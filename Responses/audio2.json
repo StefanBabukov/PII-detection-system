@@ -1,0 +1,84 @@
+{
+  "jobName": "audio2",
+  "accountId": "123456789",
+  "results": {
+    "language_code": "en-US",
+    "transcripts": [
+      {
+        "transcript": "Glasgow Caledonian University is located on Calkins Road, Glasgow."
+      }
+    ],
+    "language_identification": [
+      { "score": "0.9854", "code": "en-US" },
+      { "score": "0.0109", "code": "en-AU" },
+      { "score": "0.0023", "code": "en-GB" },
+      { "score": "0.0013", "code": "en-NZ" },
+      { "score": "0.0001", "code": "th-TH" }
+    ],
+    "items": [
+      {
+        "start_time": "0.009",
+        "end_time": "0.509",
+        "alternatives": [{ "confidence": "0.999", "content": "Glasgow" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "0.519",
+        "end_time": "1.139",
+        "alternatives": [{ "confidence": "0.999", "content": "Caledonian" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "1.149",
+        "end_time": "1.74",
+        "alternatives": [{ "confidence": "0.999", "content": "University" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "1.75",
+        "end_time": "1.83",
+        "alternatives": [{ "confidence": "0.999", "content": "is" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "1.84",
+        "end_time": "2.289",
+        "alternatives": [{ "confidence": "0.999", "content": "located" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "2.299",
+        "end_time": "2.44",
+        "alternatives": [{ "confidence": "0.999", "content": "on" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "2.45",
+        "end_time": "2.74",
+        "alternatives": [{ "confidence": "0.003", "content": "Calkins" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "2.97",
+        "end_time": "3.43",
+        "alternatives": [{ "confidence": "0.999", "content": "Road" }],
+        "type": "pronunciation"
+      },
+      {
+        "alternatives": [{ "confidence": "0.0", "content": "," }],
+        "type": "punctuation"
+      },
+      {
+        "start_time": "3.44",
+        "end_time": "4.139",
+        "alternatives": [{ "confidence": "0.999", "content": "Glasgow" }],
+        "type": "pronunciation"
+      },
+      {
+        "alternatives": [{ "confidence": "0.0", "content": "." }],
+        "type": "punctuation"
+      }
+    ]
+  },
+  "status": "COMPLETED"
+}

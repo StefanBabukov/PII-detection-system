@@ -5,7 +5,7 @@ import os
 # Create an S3 client
 s3 = boto3.client('s3')
 
-# Set the local path of the audio files to be uploaded
+# local path of the audio files to be uploaded
 audio_files_path = './audio_files'
 
 # Set the S3 bucket name

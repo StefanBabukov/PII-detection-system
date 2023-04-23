@@ -1,0 +1,80 @@
+{
+  "jobName": "audio3",
+  "accountId": "123456789",
+  "results": {
+    "language_code": "en-US",
+    "transcripts": [
+      {
+        "transcript": "Mars Curiosity rover was launched from Florida in 2012."
+      }
+    ],
+    "language_identification": [
+      { "score": "0.9883", "code": "en-US" },
+      { "score": "0.0067", "code": "en-AU" },
+      { "score": "0.0032", "code": "en-GB" },
+      { "score": "0.0014", "code": "en-NZ" },
+      { "score": "0.0004", "code": "en-IE" }
+    ],
+    "items": [
+      {
+        "start_time": "0.009",
+        "end_time": "0.439",
+        "alternatives": [{ "confidence": "0.995", "content": "Mars" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "0.449",
+        "end_time": "1.23",
+        "alternatives": [{ "confidence": "0.999", "content": "Curiosity" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "1.24",
+        "end_time": "1.649",
+        "alternatives": [{ "confidence": "0.999", "content": "rover" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "1.659",
+        "end_time": "1.82",
+        "alternatives": [{ "confidence": "0.999", "content": "was" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "1.83",
+        "end_time": "2.22",
+        "alternatives": [{ "confidence": "0.999", "content": "launched" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "2.23",
+        "end_time": "2.42",
+        "alternatives": [{ "confidence": "0.999", "content": "from" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "2.43",
+        "end_time": "3.0",
+        "alternatives": [{ "confidence": "0.999", "content": "Florida" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "3.009",
+        "end_time": "3.13",
+        "alternatives": [{ "confidence": "0.999", "content": "in" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "3.14",
+        "end_time": "4.019",
+        "alternatives": [{ "confidence": "0.999", "content": "2012" }],
+        "type": "pronunciation"
+      },
+      {
+        "alternatives": [{ "confidence": "0.0", "content": "." }],
+        "type": "punctuation"
+      }
+    ]
+  },
+  "status": "COMPLETED"
+}

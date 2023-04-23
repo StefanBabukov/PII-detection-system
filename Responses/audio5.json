@@ -1,0 +1,118 @@
+{
+  "jobName": "audio5",
+  "accountId": "123456789",
+  "results": {
+    "language_code": "en-US",
+    "transcripts": [
+      {
+        "transcript": "On 25th of April 2019 meta announced it was banning personality quizzes from its platform."
+      }
+    ],
+    "language_identification": [
+      { "score": "0.7471", "code": "en-US" },
+      { "score": "0.1266", "code": "en-AU" },
+      { "score": "0.1085", "code": "en-NZ" },
+      { "score": "0.0103", "code": "en-GB" },
+      { "score": "0.0075", "code": "en-IE" }
+    ],
+    "items": [
+      {
+        "start_time": "0.009",
+        "end_time": "0.28",
+        "alternatives": [{ "confidence": "0.999", "content": "On" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "0.289",
+        "end_time": "0.92",
+        "alternatives": [
+          { "confidence": "0.9984999999999999", "content": "25th" }
+        ],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "0.93",
+        "end_time": "0.99",
+        "alternatives": [{ "confidence": "0.996", "content": "of" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "1.0",
+        "end_time": "1.539",
+        "alternatives": [{ "confidence": "0.999", "content": "April" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "1.549",
+        "end_time": "2.539",
+        "alternatives": [{ "confidence": "0.999", "content": "2019" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "2.549",
+        "end_time": "2.91",
+        "alternatives": [{ "confidence": "0.997", "content": "meta" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "2.92",
+        "end_time": "3.38",
+        "alternatives": [{ "confidence": "0.999", "content": "announced" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "3.39",
+        "end_time": "3.47",
+        "alternatives": [{ "confidence": "0.999", "content": "it" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "3.48",
+        "end_time": "3.63",
+        "alternatives": [{ "confidence": "0.999", "content": "was" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "3.64",
+        "end_time": "3.98",
+        "alternatives": [{ "confidence": "0.999", "content": "banning" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "3.99",
+        "end_time": "4.69",
+        "alternatives": [{ "confidence": "0.999", "content": "personality" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "4.699",
+        "end_time": "5.099",
+        "alternatives": [{ "confidence": "0.999", "content": "quizzes" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "5.11",
+        "end_time": "5.289",
+        "alternatives": [{ "confidence": "0.999", "content": "from" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "5.3",
+        "end_time": "5.42",
+        "alternatives": [{ "confidence": "0.999", "content": "its" }],
+        "type": "pronunciation"
+      },
+      {
+        "start_time": "5.429",
+        "end_time": "6.099",
+        "alternatives": [{ "confidence": "0.999", "content": "platform" }],
+        "type": "pronunciation"
+      },
+      {
+        "alternatives": [{ "confidence": "0.0", "content": "." }],
+        "type": "punctuation"
+      }
+    ]
+  },
+  "status": "COMPLETED"
+}
