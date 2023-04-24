@@ -19,11 +19,11 @@ role_name = 'EMR_EC2_DefaultRole'
 #     print(e)
 
 # Create an S3 bucket
-# try:
-#     s3.create_bucket(Bucket=bucket_name)
-#     print(f'S3 bucket {bucket_name} created.')
-# except ClientError as e:
-#     print(e)
+try:
+    s3.create_bucket(Bucket=bucket_name)
+    print(f'S3 bucket {bucket_name} created.')
+except ClientError as e:
+    print(e)
 
 # # Upload the setup files to the S3 bucket
 # s3.upload_file('configure_instance.sh', bucket_name, 'setup/configure_instance.sh')
