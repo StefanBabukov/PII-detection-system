@@ -99,6 +99,9 @@ response = cloudformation.create_stack(
 )
 print(response)
 
+#wait until the sqs queue is created
+waiter = cloudformation.get_waiter('stack_create_complete')
+waiter.wait(StackName=f"{stack_name}-sqs")
 
 def get_sqs_arn_by_name(name):
     sqs = boto3.client('sqs')
