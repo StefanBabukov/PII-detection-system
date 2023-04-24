@@ -1,1 +1,14 @@
-{'Entities': [], 'ResponseMetadata': {'RequestId': 'd2f6bc31-059b-49d5-bb03-738b991ed9f8', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': 'd2f6bc31-059b-49d5-bb03-738b991ed9f8', 'content-type': 'application/x-amz-json-1.1', 'content-length': '15', 'date': 'Fri, 10 Feb 2023 09:22:45 GMT'}, 'RetryAttempts': 0}}
+{
+    "Entities": [],
+    "ResponseMetadata": {
+        "RequestId": "d2f6bc31-059b-49d5-bb03-738b991ed9f8",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "x-amzn-requestid": "d2f6bc31-059b-49d5-bb03-738b991ed9f8",
+            "content-type": "application/x-amz-json-1.1",
+            "content-length": "15",
+            "date": "Fri, 10 Feb 2023 09:22:45 GMT"
+        },
+        "RetryAttempts": 0
+    }
+}
