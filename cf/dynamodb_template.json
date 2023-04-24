@@ -6,14 +6,22 @@
         "Properties": {
           "AttributeDefinitions": [
             {
-              "AttributeName": "Id",
+              "AttributeName": "AudioFile",
+              "AttributeType": "S"
+            },
+            {
+              "AttributeName": "PiiEntity",
               "AttributeType": "S"
             }
           ],
           "KeySchema": [
             {
-              "AttributeName": "Id",
+              "AttributeName": "AudioFile",
               "KeyType": "HASH"
+            },
+            {
+              "AttributeName": "PiiEntity",
+              "KeyType": "RANGE"
             }
           ],
           "ProvisionedThroughput": {
@@ -25,4 +33,3 @@
       }
     }
   }
-  
