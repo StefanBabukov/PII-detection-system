@@ -79,7 +79,7 @@ cloudformation = boto3.client('cloudformation')
 stack_name = 'stack-1919196'
 
 # Creating SQS queue
-with open('sqs_template.json', 'r') as f:
+with open('cf/sqs_template.json', 'r') as f:
     sqs_template_body = f.read()
 
 response = cloudformation.create_stack(
@@ -90,7 +90,7 @@ print(response)
 
 
 # Creating DynamoDB table
-with open('dynamodb_template.json', 'r') as f:
+with open('cf/dynamodb_template.json', 'r') as f:
     dynamodb_template_body = f.read()
 
 response = cloudformation.create_stack(
