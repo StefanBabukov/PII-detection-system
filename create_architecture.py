@@ -66,7 +66,6 @@ def get_sqs_arn_by_name(name):
     return queue_arn
 # Create a bucket notification configuration to send a message to the SQS queue when a file is uploaded to the "transcribe" folder
 queue_arn = get_sqs_arn_by_name('1919196queue')
-print('arn is ', queue_arn)
 notification_config = {
     'QueueConfigurations': [
         {
