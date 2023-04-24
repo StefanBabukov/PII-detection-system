@@ -1,12 +1,49 @@
 {
-    "AWSTemplateFormatVersion": "2010-09-09",
-    "Resources": {
-      "MyQueue": {
-        "Type": "AWS::SQS::Queue",
-        "Properties": {
-          "QueueName": "1919196queue"
-        }
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Resources": {
+    "MyQueue": {
+      "Type": "AWS::SQS::Queue",
+      "Properties": {
+        "QueueName": "1919196queue"
+      }
+    },
+    "MyQueuePolicy": {
+      "Type": "AWS::SQS::QueuePolicy",
+      "Properties": {
+        "PolicyDocument": {
+          "Version": "2012-10-17",
+          "Statement": [
+            {
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "s3.amazonaws.com"
+              },
+              "Action": "SQS:SendMessage",
+              "Resource": {
+                "Fn::GetAtt": [
+                  "MyQueue",
+                  "Arn"
+                ]
+              },
+              "Condition": {
+                "ArnLike": {
+                  "aws:SourceArn": "arn:aws:s3:::1919196-s3"
+                },
+                "StringEquals": {
+                  "aws:SourceAccount": {
+                    "Ref": "AWS::AccountId"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "Queues": [
+          {
+            "Ref": "MyQueue"
+          }
+        ]
       }
     }
+  }
 }
-  
